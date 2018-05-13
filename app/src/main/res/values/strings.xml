@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">黑沙投機仔小鬧鐘</string>
+    <string name="group1_key">group1</string>
+    <string name="group2_key">group2</string>
+    <string name="group3_key">group3</string>
+    <string name="group4_key">group4</string>
+    <string-array name="groupList">
+        <item>世界王</item>
+        <item>投機類</item>
+        <item>拍賣場</item>
+        <item>黑商、納貢</item>
+    </string-array>
+    <string-array name="type_group1">
+        <item>世界王-克價卡(重生8小時)</item>
+        <item>世界王-庫屯(重生8小時)</item>
+        <item>世界王-沙龍(重生8小時)</item>
+        <item>世界王-鳥王(重生8小時)</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="type_group2">
+        <item>加工</item>
+        <item>料理、煉金</item>
+        <item>工人-餵啤酒</item>
+        <item>耕作施肥</item>
+        <item>耕作收成</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="type_group3">
+     <item>拍賣-武器</item>
+     <item>拍賣-防具</item>
+     <item>拍賣-飾品</item>
+     <item>勞工、馬匹</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="type_group4">
+        <item>帕吉歐(早晚3:40)</item>
+        <item>帕吉歐(早晚7:40)</item>
+        <item>帕吉歐(早晚11:40)</item>
+        <item>納貢</item>
+    </string-array>
+</resources>

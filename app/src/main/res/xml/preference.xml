@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="鈴聲設定"
+    >
+    <RingtonePreference
+        android:defaultValue="default"
+        android:key="ringtone"
+        android:title="鬧鐘鈴聲設定"
+        android:showSilent="false"
+        android:ringtoneType="all"/>
+</PreferenceCategory>
+    <PreferenceCategory android:title="免打擾時段設定">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="dontAlarmSwitch"
+            android:title="免打擾"
+            android:summary="在時段內鬧鐘改為震動(能量鬧鐘不受影響)"/>
+        <Preference
+            android:defaultValue="default"
+            android:title="免打擾時段設定"
+            android:key="dontAlarmTime" />
+        <Preference
+            android:defaultValue="default"
+            android:title="免打擾日期設定"
+            android:key="dontAlarmDate" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
